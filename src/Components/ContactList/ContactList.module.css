@@ -1,0 +1,35 @@
+.title {
+  padding-left: 5px;
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.list {
+  padding: 5px;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 3px;
+  border: rgb(204, 204, 204) solid 1px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-image: radial-gradient(at center, #cccccc, #ffffff);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-image: radial-gradient(at center,rgb(255, 111, 111), #f0f0f0);
+}
